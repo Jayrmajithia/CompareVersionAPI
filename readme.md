@@ -3,8 +3,8 @@ Hello welcome to Version Comparison API endpoint application.
 The compare endpoint is used for comparing versions in this application.
 
 ## Assumptions
-For this application I making assumption that the values in the versions are always numeric.
-If we see any alphabetic values or they don't follow the format of versioning (i.e. it contains commas or other delimiter than `.` it will raise an error
+For this application I am making an assumption that the values in the versions are always numeric.
+If we see any alphabetic values or they don't follow the format of versioning (i.e. it contains commas or other delimiter than `.` it will raise an error)
 
 ## "/compare/version1/version2"
 This will compare the version1 with version2 and return if it is `"before"`, `"after"` or `"equal"`
@@ -25,7 +25,7 @@ If you have python and flask installed in your system you can choose to follow b
 1) go the folder where the application is saved
 2) run the command on the shell or PowerShell or CMD `$ python app.py`
 
-If you want to run docker file choose the below steps:
+If you want to run docker file follow the below steps:
 1) `$ docker build . -t Version-Comparison-Application`
 2) `$ docker run -d -p 5000:5000 Version-Comparison-Application`
 
