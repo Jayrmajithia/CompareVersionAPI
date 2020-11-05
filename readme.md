@@ -26,8 +26,8 @@ If you have python and flask installed in your system you can choose to follow b
 2) run the command on the shell or PowerShell or CMD `$ python app.py`
 
 If you want to run docker file follow the below steps:
-1) `$ docker build . -t Version-Comparison-Application`
-2) `$ docker run -d -p 5000:5000 Version-Comparison-Application`
+1) `$ docker build -t version-comparison-application .`
+2) `$ docker run -d -p 5000:5000 version-comparison-application`
 
 Note:
 1) To install flaks in your system use `$ pip install flask` or use https://flask.palletsprojects.com/en/1.1.x/installation/ this link for it
